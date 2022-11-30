@@ -1,11 +1,11 @@
 ﻿Console.WriteLine("Введите первое число: ");
-int num_a = 2;
+int num_a = int.Parse(Console.ReadLine());;
 
 Console.WriteLine("Введите второе число: ");
-int num_b = 3;
+int num_b = int.Parse(Console.ReadLine());;
 
 Console.WriteLine("Введите третье число: ");
-int num_c = 7;
+int num_c = int.Parse(Console.ReadLine());;
 
 int max = num_a;
 
